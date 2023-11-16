@@ -6,7 +6,7 @@ boolean[][] Dungeon = {{false, false, false, false, false, false, false, false, 
   {false, true, false, true, false, true, false, true, false}, 
   {false, true, true, true, false, true, true, true, false}, 
   {false, false, false, false, false, false, false, false, false}};
-int squaresize = 10;
+int squaresize = 80;
 boolean running = true;
 PVector place = new PVector(1, 1);
 PVector direction = new PVector(1, 0);
